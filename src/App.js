@@ -1,8 +1,10 @@
-import './App.css';
+import styles from "./App.module.scss";
 
 function App() {
   return (
-    <div>手sつお</div>
+    <div
+      className={styles.mainImage}
+    ></div>
   );
 }
 

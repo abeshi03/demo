@@ -10,7 +10,7 @@ import './index.css';
 import App from './App';
 
 // - 子コンポーネント =====================================================================================================
-import { Layout } from "./components/Layout";
+import { Layout } from "./components/layouts/Layout";
 
 
 ReactDOM.render(
