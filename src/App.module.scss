@@ -27,3 +27,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.bicycleCardsFlow {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 10px;
+
+  margin-bottom: 90px;
+}
