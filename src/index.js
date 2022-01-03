@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// - 子コンポーネント =====================================================================================================
+import { Layout } from "./components/Layout";
 
 ReactDOM.render(
   <React.StrictMode>
+    <Layout/>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
