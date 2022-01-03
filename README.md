@@ -4,7 +4,7 @@
 ### セットアップ手順
 
 ```
-git clone -b demo git@github.com:abeshi03/demo.git
+git clone -b feature/demo git@github.com:abeshi03/demo.git
 ```
 
 ```
