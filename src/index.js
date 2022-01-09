@@ -1,12 +1,23 @@
+// - ライブラリー ========================================================================================================
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// - アセット ============================================================================================================
+import './index.css';
+
+// - pageコンポーネント ===================================================================================================
+import App from './App';
+
+// - 子コンポーネント =====================================================================================================
+import { Layout } from "./components/layouts/Layout";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Layout>
+      <App />
+    </Layout>
   </React.StrictMode>,
   document.getElementById('root')
 );
